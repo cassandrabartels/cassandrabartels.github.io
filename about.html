@@ -37,6 +37,26 @@
             margin-top: 50px; /* Adjust this depending on the navbar height */
         }
     </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center; /* Align text vertically centered with the image */
+            padding: 20px;
+        }
+        .container img {
+            width: 400px; /* Set image width */
+            height: auto;
+            margin-right: 20px; /* Add space between the image and the text */
+        }
+        .text {
+            max-width: 600px; /* Set a max width for the text */
+        }
+    </style>
 </head>
 <body>
 
@@ -48,7 +68,14 @@
         <a href="CV.html">CV</a>
         <a href="contact.html">Contact</a>
     </div>
-
+   
+<div class="container">
+        <img src="000029780012.jpg" alt="Cassandra in the field" width="400" height="auto">
+        <div class="text">
+            <h2>Title of the Text</h2>
+            <p>This is the paragraph next to the image. It is positioned to the right of the image using flexbox, making it responsive and easy to manage. The text will automatically adjust based on the screen size, and you can control the space between the image and the text by adjusting the `margin-right` property of the image.</p>
+        </div>
+    </div>
     <div class="content">
         <h1>about</h1>
         <p>This is the about page. Navigate to other pages using the links in the navigation bar.</p>
